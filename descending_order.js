@@ -14,7 +14,7 @@ function descendingOrder(n){
     //make sure to include the empty quotes!
     arr.sort(function(a,b){return (b-a)});//the function passed as a parameter in 
     //.sort() is a user defined sorting algorithm.
-    var sortedStr = arr.toString();
+    var sortedStr = arr.toString(); //['1', '2', '3', ...] => '1,2,3,4'
     sortedStr = sortedStr.replace(/,/g, '');// /,/g is a regex for finding all ,
     return parseInt(sortedStr);
 }
