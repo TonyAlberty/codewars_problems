@@ -1,3 +1,4 @@
+//Return the compliment to the input string of dna
 function DNAStrand(dna){
     var complimentMap = {
       "A":"T",

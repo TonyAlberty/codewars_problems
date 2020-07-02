@@ -1,3 +1,7 @@
+//Return the count of letters that occur more than once in a string
+// ex: test => 1 since 't' occurs twice, there is only one letter that
+//occurs multiple times
+
 //Solution #1: No regex
 function duplicateCount(text){
     text = text.toUpperCase();//case insensitive

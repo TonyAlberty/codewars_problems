@@ -1,3 +1,5 @@
+//replace letters that occur more than once with a ')'
+//and replace letters that occur only once with a '('
 function duplicateEncode(word){
     word = word.toUpperCase();
     var checked = {};
