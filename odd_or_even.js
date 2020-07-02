@@ -1,6 +1,5 @@
 //given an array of numbers, return if the sum is even or odd.
 function oddOrEven(array) {
-    console.log(array);
     if(!array || array.length == 0){
       return "even";
     } else{
