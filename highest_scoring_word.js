@@ -5,7 +5,6 @@ function high(x){
     var arr = x.split(" ");
     var max = 0;
     var maxScore = 0;
-    console.log(arr);
     for(word in arr){
       var score = scoreWord(arr[word]);
       if(score > maxScore){
@@ -13,7 +12,6 @@ function high(x){
         max = word;
       }
     }
-    console.log(max);
     return arr[max];
   }
   
